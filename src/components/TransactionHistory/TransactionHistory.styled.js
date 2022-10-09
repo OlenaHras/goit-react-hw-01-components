@@ -33,5 +33,4 @@ export const TableTr = styled.tr`
     &:hover{
         background-color: rgb(202, 242, 242);
     }
-}
 `;
