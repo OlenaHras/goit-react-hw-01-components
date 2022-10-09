@@ -4,10 +4,9 @@ export const UserProfile = styled.div`
     display: flex;
     flex-direction: column;
     width: 300px;
-    border: 1px solid rgb(133, 132, 132);
+    border: 1px solid var(--primary-color);;
     background-color: white;
-    margin: 0 auto;
-    margin-bottom: 50px;
+    margin: 50px auto;
 `;
 
 export const Container = styled.div`
@@ -24,7 +23,7 @@ font-weight: 700;
 
 export const UserInfo = styled.p`
 margin: 5px;
-color: rgb(133, 132, 132)
+color: var(--primary-color);
 `
 
 export const StatsList = styled.ul`
@@ -38,8 +37,8 @@ export const StatsItem = styled.li`
     display: grid;
     justify-items: center;
     align-items: center;
-    background-color: rgb(243, 247, 252);
-    border: 1px solid rgb(133, 132, 132);
+    background-color: var(--background-color);
+    border: 1px solid var(--primary-color);;
     width: 100%;
 `;
 
